@@ -2,10 +2,14 @@ import { useState } from 'react'
 import './App.css'
 import Profile from './components/profile/Profile'
 import userData from './components/userData.json'
+
+
 import FriendList from './components/friend/FriendList'
 import fiendData from './components/friendData.json'
+
 import TransactionHistory from './components/transactionHistory/TransactionHistory'
 import transactionData from './components/transactionData.json'
+
 function App() {
 
   return (

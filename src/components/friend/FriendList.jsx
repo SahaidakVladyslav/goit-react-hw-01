@@ -1,4 +1,5 @@
-import React from 'react';
+import css from './FriendList.module.css'
+
 
 export default function FriendList ({props})  {
   return (

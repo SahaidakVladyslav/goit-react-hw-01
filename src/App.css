@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+ul {
+  list-style: none;
+}
+body {
+  font-size: 25px;
+}
