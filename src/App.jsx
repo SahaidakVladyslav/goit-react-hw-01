@@ -2,8 +2,10 @@ import { useState } from 'react'
 import './App.css'
 import Profile from './components/profile/Profile'
 import userData from './components/userData.json'
-import FriendList from './components/FriendList/FriendList'
-
+import FriendList from './components/friendList/FriendList'
+import fiendData from './components/friendData.json'
+import TransactionHistory from './components/transactionHistory/TransactionHistory'
+import transactionData from './components/transactionData.json'
 function App() {
 
   return (
@@ -15,7 +17,10 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <FriendList/>
+      <FriendList 
+      props= {fiendData}
+      />
+      <TransactionHistory props={transactionData}/>
     </>
   )
 }
